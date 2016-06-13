@@ -15,6 +15,7 @@ var App template.FuncMap = template.FuncMap{
   "loadtime":                  viewhelpers.Loadtime,
   "dict":                      viewhelpers.Dict,
   "len":                       viewhelpers.Len,
+  "outboundlink":              viewhelpers.OutboundLink,
 }
 
 ```
